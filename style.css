@@ -1,0 +1,46 @@
+style.css
+@charset "utf-8";
+*{
+	padding: 0px;
+	margin: 0px;
+
+}
+h1 {
+	font-family: arial, sans-serif;
+	font-weight: 400;
+	height: 60px;
+	width: 100½;
+	background: #CCC;
+	line-height: 60px;
+	color: white;
+	margin-left: 15px;
+
+}
+div{
+	width: 250px;
+	height: 666px;
+	background: none;
+
+
+}
+div a{
+	text-decoration-color: none;
+	color:white;
+	padding:none;
+	padding-right:1px;
+
+}
+div ul li{
+	list-style-type: none;
+	display: block;
+	margin: 10px;
+	padding: 15px;
+	border-bottom: 1px solid #CCC;
+
+}
+
+div ul li:hover;{
+	background: #4097AD;
+	transition: linear all 0.40;
+	margin-left: 10px;
+}
